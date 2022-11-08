@@ -34,6 +34,7 @@ jobs:
         run: |
           go clean --modcache
           go get github.com/onsi/ginkgo/v2/ginkgo/generators@v2.5.0
+          go get github.com/onsi/ginkgo/v2/ginkgo/labels@v2.5.0
           go install github.com/onsi/ginkgo/v2/ginkgo
       - name: Test Go
         run: |
