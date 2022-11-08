@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuites tests="2" disabled="0" errors="0" failures="0" time="0.000313215">
+      <testsuite name="GinkgoSample Suite" package="/Users/yusuferdem/go/src/github.com/yusuf-erdem/ginkgo-sample" tests="2" disabled="0" skipped="0" errors="0" failures="0" time="0.000313215" timestamp="2022-11-08T14:12:22">
+          <properties>
+              <property name="SuiteSucceeded" value="true"></property>
+              <property name="SuiteHasProgrammaticFocus" value="false"></property>
+              <property name="SpecialSuiteFailureReason" value=""></property>
+              <property name="SuiteLabels" value="[]"></property>
+              <property name="RandomSeed" value="1667905942"></property>
+              <property name="RandomizeAllSpecs" value="false"></property>
+              <property name="LabelFilter" value=""></property>
+              <property name="FocusStrings" value=""></property>
+              <property name="SkipStrings" value=""></property>
+              <property name="FocusFiles" value=""></property>
+              <property name="SkipFiles" value=""></property>
+              <property name="FailOnPending" value="false"></property>
+              <property name="FailFast" value="false"></property>
+              <property name="FlakeAttempts" value="0"></property>
+              <property name="DryRun" value="false"></property>
+              <property name="ParallelTotal" value="1"></property>
+              <property name="OutputInterceptorMode" value=""></property>
+          </properties>
+          <testcase name="[It] Sum Addition of two digits should return sum of the two digits" classname="GinkgoSample Suite" status="passed" time="0.000131108">
+              <system-err>&gt; Enter [BeforeEach] Sum - /Users/yusuferdem/go/src/github.com/yusuf-erdem/ginkgo-sample/sum_test.go:13 @ 11/08/22 14:12:22.768&#xA;&lt; Exit [BeforeEach] Sum - /Users/yusuferdem/go/src/github.com/yusuf-erdem/ginkgo-sample/sum_test.go:13 @ 11/08/22 14:12:22.768 (0s)&#xA;&gt; Enter [It] should return sum of the two digits - /Users/yusuferdem/go/src/github.com/yusuf-erdem/ginkgo-sample/sum_test.go:19 @ 11/08/22 14:12:22.768&#xA;&lt; Exit [It] should return sum of the two digits - /Users/yusuferdem/go/src/github.com/yusuf-erdem/ginkgo-sample/sum_test.go:19 @ 11/08/22 14:12:22.768 (0s)&#xA;</system-err>
+          </testcase>
+          <testcase name="[It] Sum Addition of two digits should not return the sum provided" classname="GinkgoSample Suite" status="passed" time="4.2395e-05">
+              <system-err>&gt; Enter [BeforeEach] Sum - /Users/yusuferdem/go/src/github.com/yusuf-erdem/ginkgo-sample/sum_test.go:13 @ 11/08/22 14:12:22.768&#xA;&lt; Exit [BeforeEach] Sum - /Users/yusuferdem/go/src/github.com/yusuf-erdem/ginkgo-sample/sum_test.go:13 @ 11/08/22 14:12:22.768 (0s)&#xA;&gt; Enter [It] should not return the sum provided - /Users/yusuferdem/go/src/github.com/yusuf-erdem/ginkgo-sample/sum_test.go:23 @ 11/08/22 14:12:22.768&#xA;&lt; Exit [It] should not return the sum provided - /Users/yusuferdem/go/src/github.com/yusuf-erdem/ginkgo-sample/sum_test.go:23 @ 11/08/22 14:12:22.768 (0s)&#xA;</system-err>
+          </testcase>
+      </testsuite>
+  </testsuites>
