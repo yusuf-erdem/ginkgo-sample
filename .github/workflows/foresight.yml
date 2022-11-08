@@ -39,8 +39,6 @@ jobs:
       - name: Test Go
         run: |
           ginkgo -r --junit-report=./test-report.xml
-      - name: Convert coverage to lcov
-        uses: jandelgado/gcov2lcov-action@v1
       - name: Foresight Action
         if: success() || failure()
         uses: runforesight/foresight-test-kit-action@v1
