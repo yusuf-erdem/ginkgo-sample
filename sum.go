@@ -7,7 +7,6 @@ func Sum(x, y int) int {
 	return x + y
 }
 
-
 func Sum2(x, y int) int {
 	fmt.Println("Received Digits :", x, y)
 	return x + y
