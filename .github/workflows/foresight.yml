@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
 
 env:
-  FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.me
+  FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.us
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   PR_NUMBER: ${{ github.event.number }}
-  WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.me
+  WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.us
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -43,6 +43,6 @@ jobs:
         if: success() || failure()
         uses: runforesight/foresight-test-kit-action@v1
         with:
-          api_key: ${{ secrets.F_API_KEY }}
+          api_key: ${{ secrets.F_STAGING_API_KEY }}
           test_framework: JUNIT
           test_path: ./test-report.xml
