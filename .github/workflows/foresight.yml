@@ -46,4 +46,4 @@ jobs:
           api_key: ${{ secrets.F_API_KEY }}
           test_framework: JUNIT
           test_format: JUNIT
-          test_path: ./test-report.json
+          test_path: ./test-report.xml
