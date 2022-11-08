@@ -33,7 +33,7 @@ jobs:
       - name: clean cache
         run: |
           go clean --modcache
-          go install github.com/onsi/ginkgo/v2/ginkgo
+          go get github.com/onsi/ginkgo/v2/ginkgo/generators@v2.5.0
       - name: Test Go
         run: |
           ginkgo -r --junit-report=./test-report.xml
