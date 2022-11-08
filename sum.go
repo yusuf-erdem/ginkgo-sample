@@ -12,6 +12,7 @@ func Sum2(x, y int) int {
 	return x + y
 }
 
+
 func main() {
 	m, n := 3, 4
 	fmt.Println(Sum(m, n))
