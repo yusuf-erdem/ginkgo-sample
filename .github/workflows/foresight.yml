@@ -31,7 +31,9 @@ jobs:
         with:
           go-version: 1.18
       - name: clean cache
-        run: go clean --modcache
+        run: |
+          go clean --modcache
+          go install github.com/onsi/ginkgo/v2/ginkgo
       - name: Test Go
         run: |
           ginkgo -r --junit-report=./test-report.xml
